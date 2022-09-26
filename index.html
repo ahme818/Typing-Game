@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+
+    <!-- Css Files -->
+
+    <!-- Framework Style File -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/fir.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Word Scramble</h2>
+
+        <div class="content" id="fir-cont">
+            <p class="play-now">Click to play now</p>
+            <div class="buttons">
+                <!-- <button class="refresh-word">Refresh Word</button> -->
+                <button class=" play-ch mx-auto" id="medium">Play</button>
+            </div>
+        </div>
+
+        <div class="content hide" id="main-cont">
+            <p class="word"></p>
+            <div class="details">
+                <p class="score">Score: <span></span></p>
+                <p class="time">Time Left: <span><b>0</b>s</span></p>
+            </div>
+            <input type="text" spellcheck="false" placeholder="Enter a valid word">
+            <div class="buttons">
+                <!-- <button class="refresh-word">Refresh Word</button> -->
+                <button class="end mx-auto">End</button>
+            </div>
+            <div class="message hide">
+                <p class="message-show"></p>
+            </div>
+        </div>
+        <div class="content endPage hide" id="cont">
+            <p class="f-score">Your Score is : <span></span></p>
+            <p class="play-now">play again</p>
+            <div class="buttons">
+                <!-- <button class="refresh-word">Refresh Word</button> -->
+                <button class=" play mx-auto" id="play-again">Play Again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/word.js"></script>
+    <script src="js/fir.js"></script>
+
+</body>
+
+</html>
